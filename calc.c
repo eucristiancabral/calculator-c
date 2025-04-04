@@ -16,6 +16,14 @@ int main(){
     printf("Digite o segundo numero: ");
     scanf("%f", &n2); // Reads a floating point number (float) entered by the user and stores it in n2
 
+    // Displays the operations options
+    printf("-----------------------------\n");
+    printf("Selecione o operador desejado: \n");
+    printf("1 - Adicao\n");
+    printf("2 - Subtracao\n");
+    printf("3 - Multiplicacao\n");
+    printf("4 - Divisao\n");
+    scanf("%d", &ope); // Reads an integer entered by the user and stores it in the 'ope' variableg
 
     return 0;
 }
